@@ -37,6 +37,19 @@ export default function Home() {
                 <WrapperButtonGenerate>
                     <MyButton mode='gradient'>Generate</MyButton>
                 </WrapperButtonGenerate>
+
+                <div style={{marginTop: 20}}>
+                    <h2 style={{textAlign: 'center', marginBottom: 20}}>History</h2>
+                    <div style={{display: 'flex', alignItems: 'center'}}>
+                        <img style={{width: 80}} alt="bu" src="https://rickandmortyapi.com/api/character/avatar/339.jpeg"/>
+                        <CardInfo>
+                                <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+                                    <h5>Risotto Groupon</h5>
+                                    <MyButton >View</MyButton>
+                                </div>
+                        </CardInfo>
+                    </div>
+                </div>
             </Content>
         </div>
     )
