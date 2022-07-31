@@ -4,6 +4,8 @@ import Content from "../components/content";
 import {DetailCharacter} from "../components/content/styled";
 import CardInfo from "../components/cardInfo";
 import CharacterInfoItem from "../components/characterInfoItem";
+import MyButton from "../components/Button";
+import {WrapperButtonGenerate} from "../components/Button/styled";
 
 export default function Home() {
 
@@ -32,7 +34,9 @@ export default function Home() {
                         </CardInfo>
                     </div>
                 </DetailCharacter>
-                <h1>Content</h1>
+                <WrapperButtonGenerate>
+                    <MyButton mode='gradient'>Generate</MyButton>
+                </WrapperButtonGenerate>
             </Content>
         </div>
     )
