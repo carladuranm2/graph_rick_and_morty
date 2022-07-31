@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const WrapperContent = styled.nav`
-  padding: 66px 90px;
+  padding: 76px 90px;
 `;
 
 export const DetailCharacter = styled.div`
