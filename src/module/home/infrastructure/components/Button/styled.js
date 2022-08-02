@@ -20,6 +20,7 @@ export const Button = styled.button`
           border: none;
           letter-spacing: 1px;
           font-size: 12px;
+          cursor: pointer
         `;
       default:
         return css`
@@ -33,6 +34,7 @@ export const Button = styled.button`
           font-weight: 600;
           letter-spacing: 1px;
           font-size: 12px;
+          cursor: pointer
         `;
     }
   }}
