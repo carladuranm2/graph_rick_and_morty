@@ -2,7 +2,7 @@ import styled, {css} from 'styled-components';
 
 export const WrapperButtonGenerate = styled.div`
 display: flex;
-  margin-top: 10px;
+  margin-top: ${props => props.marginTop ? '20px' : '10px'};
   justify-content: flex-end;
 `
 

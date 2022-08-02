@@ -1,9 +1,9 @@
 import React from 'react'
 import {WrapperCardInfo} from "./styled";
 
-export default function CardInfo({children, top, borderBottom}) {
+export default function CardInfo({children, top, width, borderBottom}) {
     return (
-        <WrapperCardInfo borderBottom={borderBottom} top={top}>
+        <WrapperCardInfo width={width ? width.toString() : width} borderBottom={borderBottom} top={top}>
             {children}
         </WrapperCardInfo>
     )
