@@ -22,7 +22,6 @@ export default function Home() {
 
     async function generateNewCharacter() {
         const randomId = getRandomNumber(count.characters.info.count)
-        console.log('llego aki')
         const res = await geCharacter({ variables: { id: randomId } })
         setHistoryCharacters([...historyCharacters, res.data.character])
         setCurrenCharacter(res.data.character)

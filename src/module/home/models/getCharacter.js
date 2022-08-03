@@ -8,6 +8,7 @@ export const GET_CHARACTER = gql`
       species
       type
       gender
+      id
       origin {
         name
         __typename
