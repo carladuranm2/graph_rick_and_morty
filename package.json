@@ -1,7 +1,7 @@
 {
   "name": "carla",
   "version": "0.1.0",
-  "homepage": "https://carladuranm2.github.io/graph_rick_and_morty",
+  "homepage": "https://cvillazon.github.io/graph_rick_and_morty",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.6.9",
